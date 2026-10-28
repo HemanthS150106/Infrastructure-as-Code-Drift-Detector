@@ -1,0 +1,16 @@
+{
+  "name": "iac-drift-detector-backend",
+  "version": "1.0.0",
+  "description": "Risk-weighted Infrastructure-as-Code drift detection API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
